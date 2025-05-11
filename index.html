@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="container">
+<div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">Биология мышц</h1>
+      <p class="fs-5 text-body-secondary">Добро пожаловать на сайт по биологии мышц! Здесь вы узнаете, как мышцы работают, обеспечивая движение и поддерживая жизнь. Наши статьи расскажут о строении мышечных волокон, механизмах сокращения и расслабления, а также о различных типах мышц и их функциях. Узнайте о влиянии упражнений и различных заболеваний на здоровье ваших мышц. А также создавайте свои статьи и рассказывайте о вашем опыте в тренировках мышц.</p>
+    </div>
+<main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Про создателя сайта</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Кто он?</li>
+              <li>Чем он занимался?</li>
+              <li>Его история</li>
+              <li>Путь к созданию сайта</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Всё о мышцах</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Анатомия и физиология</li>
+              <li>Здоровье мышц</li>
+              <li>Функции мышц</li>
+              <li>Заболевания мышц</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-bg-primary border-primary">
+            <h4 class="my-0 fw-normal">Тренировки</h4>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>В домашних условиях</li>
+              <li>В зале</li>
+              <li>Эффективные</li>
+              <li>Полезные для здоровья</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+{% endblock %}
